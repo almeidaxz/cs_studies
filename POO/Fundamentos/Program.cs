@@ -35,3 +35,9 @@
         }
     }
 }
+
+//classes e sctrucs que criamos e que podemos instanciar
+//são considerados tipos complexos
+//é boa prática quebrar objetos grandes em objetos menores
+//exp: quebrar classe maior que mantém a classe pessoa
+//que tem um endereço em um sub objeto endereço

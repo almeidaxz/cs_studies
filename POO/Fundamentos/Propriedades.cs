@@ -13,10 +13,10 @@ namespace POO
 
         struct Pagamento
         {
-            //snipet prop - quando não precisa manipular o valor das props
+            //snipet prop - quando não precisa manipular o valor
             public DateTime DataVencimento { get; set; }
 
-            //snipet propfull
+            //snipet propfull - quando precisa manipular o valor
             private DateTime dataPagamento;
             public DateTime DataPagamento
             {
